@@ -53,7 +53,7 @@ public class SMenu
 	  rb.keyPress(MenuKeyEvent.VK_ENTER);
 	  js.executeScript("window.scrollBy(0,200)");
 	  //js.executeScript("document.getElementsByClassName('css-tlfecz-indicatorContainer')[4].click()");
-	  wd.findElement(By.xpath("//*[@class=' css-1okebmr-indicatorSeparator'][3]")).click();
+	  wd.findElement(By.xpath("//*[@class='  css-tlfecz-indicatorContainer'][3]")).click();
 	  rb.keyPress(MenuKeyEvent.VK_DOWN);
 	  rb.keyPress(MenuKeyEvent.VK_ENTER);
   }
